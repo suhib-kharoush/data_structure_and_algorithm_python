@@ -8,5 +8,5 @@
 ![](zip_List.JPG)
 
 ## Approach & Efficiency:
-- Speed: O(1)
-- Time: O(n)
+- Speed: O(1).
+- Time: O(n).
