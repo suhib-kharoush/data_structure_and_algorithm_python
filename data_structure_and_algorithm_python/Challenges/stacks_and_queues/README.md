@@ -12,4 +12,3 @@
 1. push method: To push an item in the stack
 2. pop method: this method removes and returns last value.
 3. peek: this method show us the top value in the Stack.
-4. 
