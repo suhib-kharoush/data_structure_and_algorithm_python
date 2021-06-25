@@ -9,38 +9,35 @@ class PseudoQueue:
     def __init__(self):
         self.stack_1 = Stack()
         self.stack_2 = Stack()
-
+        self.front=None
     def enqueue(self, value):
-        current = self.stack_1.top
-
-        while current:
-            self.stack_2.push(current.value)
-            current = current.next
-            self.stack_1.pop()
-
         self.stack_1.push(value)
-        current_2 = self.stack_2.top
-        while current_2:
-            self.stack_1.pop()
 
-    
-    def peek(self):
-        if not self.isEmpty():
-            return self.stack_1.value
-
-
-    def dequeue(self):
-        if not self.stack_1.top:
-            print ('empty queue')
-        
-        strQueue = str(self.stack_1.top.value)
-        self.stack_1.top
-        return strQueue
+    def dequeue(self ):
+        while not self.stack_1.isEmpty():
+            popped = self.stack_1.pop()
+            self.stack_2.push(popped)
+        result = self.stack_2.pop()
+        if self.stack_1.isEmpty():
+            while not self.stack_2.isEmpty():
+                 self.stack_1.push(self.stack_2.pop())
+            return result
 
     def isEmpty(self):
         if self.stack_1:
             return False
         return True
+
+
+
+    def __str__(self):
+        stack= self.stack_1.top
+        items = []
+        while stack:
+            items.insert(0,str(stack.value))
+            stack = stack.next
+        return " ".join(items)
+
 
 
 class Stack:
@@ -91,3 +88,13 @@ if __name__=='__main__':
     stack.push('third level')
     stack.push('fourth level')
     print(stack)
+
+    pesudoQ= PseudoQueue()
+    pesudoQ.enqueue(3)
+    pesudoQ.enqueue(5)
+    pesudoQ.enqueue(7)
+    pesudoQ.enqueue(9)
+    print(pesudoQ)
+    print(pesudoQ.dequeue())
+    print(pesudoQ.dequeue())
+    print(pesudoQ)
