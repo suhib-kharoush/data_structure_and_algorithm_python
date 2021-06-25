@@ -92,6 +92,7 @@ if __name__=='__main__':
     animals.enqueue(firstCat)
     animals.enqueue(secondCat)
     print(animals.cat)
+    print(animals.dog)
 
     animals.dequeue('cat')
     print(animals.cat)
