@@ -39,30 +39,6 @@ def test_post_order_traversal(tree_test):
     actual=tree_test.post_order()
     assert actual == expected
 
-def test_add_method_for_BinarySearch_class():
-    bts=BinarySearchTree()
-    bts.add(5)
-    bts.add(9)
-    bts.add(-2)
-    bts.add(6)
-    bts.add(3)
-    bts.add(8)
-    bts.add(5)
-    assert bts.root.value == 5
-    assert bts.root.left.value == -2
-    assert bts.root.right.value == 9
-    assert bts.root.left.right.value == 3
-    assert bts.root.right.left.left.value == 5
-
-def test_contains_method(tree_test_two):
-    expected=True
-    actual=tree_test_two.contains(2)
-    assert actual == expected
-
-def test_find_max_value_within_tree(tree_test):
-    expected=9
-    actual=tree_test.max_val()
-    assert actual == expected 
 
 @pytest.fixture
 def tree_test():
