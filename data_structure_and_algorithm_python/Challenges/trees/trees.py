@@ -106,7 +106,6 @@ if __name__=='__main__':
     print(binary_tree.pre_order())
     print(binary_tree.in_order())
     print(binary_tree.post_order())
-    # print(binary_tree.max_val())
     bs = BinarySearchTree(node)
     print(bs.contains(2))
     print(bs.contains(10))
