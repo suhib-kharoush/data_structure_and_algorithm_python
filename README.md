@@ -10,5 +10,5 @@ Table of content:
 |queue with stacks|[queue with stacks](https://github.com/suhib-kharoush/data_structure_and_algorithm_python/tree/main/data_structure_and_algorithm_python/Challenges/queue_with_stacks)|
 |multi brackets validation|[multi brackets validation](https://github.com/suhib-kharoush/data_structure_and_algorithm_python/tree/main/data_structure_and_algorithm_python/Challenges/multi_bracket_validation)|
 |queue with stacks|[queue with stacks](https://github.com/suhib-kharoush/data_structure_and_algorithm_python/tree/main/data_structure_and_algorithm_python/Challenges/queue_with_stacks)|
-
+|trees|[trees](https://github.com/suhib-kharoush/data_structure_and_algorithm_python/tree/main/data_structure_and_algorithm_python/Challenges/trees)|
 
