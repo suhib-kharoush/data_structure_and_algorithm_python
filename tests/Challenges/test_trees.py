@@ -39,6 +39,11 @@ def test_post_order_traversal(tree_test):
     actual=tree_test.post_order()
     assert actual == expected
 
+def test_find_max_value_within_tree(tree_test):
+    expected=9
+    actual=tree_test.find_maximum_value()
+    assert actual == expected 
+
 
 @pytest.fixture
 def tree_test():
