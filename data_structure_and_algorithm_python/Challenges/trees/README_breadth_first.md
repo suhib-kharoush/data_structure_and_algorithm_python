@@ -5,7 +5,7 @@
 
 
 ### Whiteboard
-![](breadth_first_tree.PNG)
+![](breadth_first.PNG)
 
 ### Approach & Efficiency:
 - Time: O(n)
