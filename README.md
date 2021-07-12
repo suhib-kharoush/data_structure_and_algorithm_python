@@ -14,5 +14,5 @@ Table of content:
 |trees|[trees](https://github.com/suhib-kharoush/data_structure_and_algorithm_python/tree/main/data_structure_and_algorithm_python/Challenges/trees)|
 |tree_fizz_buzz|[tree_fizz_buzz](https://github.com/suhib-kharoush/data_structure_and_algorithm_python/tree/main/data_structure_and_algorithm_python/Challenges/tree_fizz_buzz)|
 |insert_sort|[insert_sort](https://github.com/suhib-kharoush/data_structure_and_algorithm_python/tree/main/data_structure_and_algorithm_python/Challenges/insertion_sort)|
-
+|merge_sort|[merge_sort](https://github.com/suhib-kharoush/data_structure_and_algorithm_python/tree/main/data_structure_and_algorithm_python/Challenges/merge_sort)|
 
