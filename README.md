@@ -13,3 +13,6 @@ Table of content:
 |queue with stacks|[queue with stacks](https://github.com/suhib-kharoush/data_structure_and_algorithm_python/tree/main/data_structure_and_algorithm_python/Challenges/queue_with_stacks)|
 |trees|[trees](https://github.com/suhib-kharoush/data_structure_and_algorithm_python/tree/main/data_structure_and_algorithm_python/Challenges/trees)|
 |tree_fizz_buzz|[tree_fizz_buzz](https://github.com/suhib-kharoush/data_structure_and_algorithm_python/tree/main/data_structure_and_algorithm_python/Challenges/tree_fizz_buzz)|
+|insert_sort|[insert_sort](https://github.com/suhib-kharoush/data_structure_and_algorithm_python/tree/main/data_structure_and_algorithm_python/Challenges/insertion_sort)|
+
+
