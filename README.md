@@ -18,4 +18,4 @@ Table of content:
 |quick_sort|[quick_sort](https://github.com/suhib-kharoush/data_structure_and_algorithm_python/tree/main/data_structure_and_algorithm_python/Challenges/quick_sort)|
 |hash_tables|[hash_tables](https://github.com/suhib-kharoush/data_structure_and_algorithm_python/tree/main/data_structure_and_algorithm_python/Challenges/hashtables)|
 |repeated_word|[repeated_word](https://github.com/suhib-kharoush/data_structure_and_algorithm_python/tree/main/data_structure_and_algorithm_python/Challenges/repeated_word)|
-
+|tree_intersection|[tree_intersection](https://github.com/suhib-kharoush/data_structure_and_algorithm_python/tree/main/data_structure_and_algorithm_python/Challenges/tree_intersection)|
