@@ -16,3 +16,18 @@
 - - get the nodes.
 - - get the neighbors of an input node.
 - - get the graph size.
+
+-----------------------------------------------------------------------
+# Breadth first search
+
+### Challenge:
+- Write the following method for the Graph class: - breadth first - Arguments: Node - Return: A collection of nodes in the order they were visited. - Display the collection
+
+### Whiteboard:
+
+![](breadth_first_search.PNG)
+
+### Approach & Efficiency:
+- Big O:
+-- Time: O(V+E)
+- - Space: O(n)

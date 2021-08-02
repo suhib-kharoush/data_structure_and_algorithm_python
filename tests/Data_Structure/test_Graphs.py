@@ -47,3 +47,24 @@ def test_empty_graph():
   graph = Graph()
   assert graph.print()== None
   print('pass')
+
+
+
+def test_breadth_first_search():
+  graph = Graph()
+  vertix_1= graph.add_node('A')
+  vertix_2 =graph.add_node('B')
+  vertix_3=graph.add_node('C')
+  vertix_4=graph.add_node('D')
+  vertix_5=graph.add_node('E')
+  graph.add_edge(vertix_1,vertix_2,1)
+  graph.add_edge(vertix_1,vertix_2,2)
+  graph.add_edge(vertix_2,vertix_4,4)
+  graph.add_edge(vertix_3,vertix_4,8)
+  graph.add_edge(vertix_3,vertix_5,3)
+  graph.add_edge(vertix_4,vertix_5,5)
+  graph.add_edge(vertix_2,vertix_1,10)
+  graph.add_edge(vertix_3,vertix_1,7)
+  graph.add_edge(vertix_4,vertix_3,8)
+  graph.add_edge(vertix_5,vertix_3,7)
+  assert graph.breadth_first_search(vertix_1) == ['Vertix > A', 'Vertix > B', 'Vertix > D', 'Vertix > E', 'Vertix > C']
