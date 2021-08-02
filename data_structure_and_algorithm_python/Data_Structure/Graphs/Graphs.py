@@ -12,7 +12,20 @@ class Edge:
     def __init__(self, vertix , weight):
         self.vertix = vertix
         self.weight = weight
-    
+
+class Queue:
+    def __init__(self):
+        self.dq = deque()
+
+    def enqueue(self, val):
+        self.dq.appendleft(val)
+
+    def dequeue(self):
+        return self.dq.pop()
+
+    def __len__(self):
+        return len(self.dq)
+           
 class Graph:
     def __init__(self):
         self.adjacency_list = {}
@@ -43,6 +56,23 @@ class Graph:
 
     def print(self):
         print(self.adjacency_list)
+    def breadth_first_search(self ,start_vertex):
+        list=[]
+        queue = Queue()
+        visited = set()
+
+        queue .enqueue(start_vertex)
+        visited.add(start_vertex)
+        
+        while len(queue):
+            current_vertex = queue.dequeue()
+            list.append(current_vertex)
+            for child in self.adjacency_list[current_vertex]:
+                if child[0] not in visited:
+                    child=child[0]
+                    visited.add(child)
+                    queue.enqueue(child)
+        return list
 
 
 
