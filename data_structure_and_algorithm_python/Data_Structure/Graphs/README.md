@@ -31,3 +31,20 @@
 - Big O:
 -- Time: O(V+E)
 - - Space: O(n)
+
+----------------------------------------------------------------------------
+# Business trip
+
+#### Challenge:
+- Create a business trip function
+- - Arguments: graph, array of city names
+- - Return: cost or null
+
+### Whiteboard:
+
+![](business_trip.PNG)
+
+### Approach & Efficiency:
+- Big O :
+- - Time : O(n)
+- - Space : O(1)

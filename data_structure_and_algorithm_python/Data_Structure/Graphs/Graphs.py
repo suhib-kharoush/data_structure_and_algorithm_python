@@ -75,6 +75,28 @@ class Graph:
         return list
 
 
+    def business_trip(self, cities):
+        sum = 0
+        flag = False
+        for i in range(len(cities) - 1):
+            neighbors = self.adjacency_list[cities[i]]
+            
+            print(neighbors)
+
+            for neighbor in neighbors:
+                if cities[i + 1] == neighbor[0]:
+                    sum+=neighbor[1]
+                    flag = True
+                    break
+                else:
+                    sum+=0
+                    flag = False
+        if not flag:
+            return False, '$0'
+        return True, '$' + str(sum)
+
+
+
 
 if __name__=='__main__':
     graph = Graph()

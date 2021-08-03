@@ -68,3 +68,23 @@ def test_breadth_first_search():
   graph.add_edge(vertix_4,vertix_3,8)
   graph.add_edge(vertix_5,vertix_3,7)
   assert graph.breadth_first_search(vertix_1) == ['Vertix > A', 'Vertix > B', 'Vertix > D', 'Vertix > E', 'Vertix > C']
+
+def test_business_trip():
+  graph = Graph()
+  vertix_1 = graph.add_node('Pandora')
+  vertix_2 = graph.add_node('Metroville')
+  vertix_3 = graph.add_node('Arendelle')
+  vertix_4 = graph.add_node('Monstropolis')
+  vertix_5 = graph.add_node('Naboo')
+  vertix_6 = graph.add_node('Narnia')
+  graph.add_edge(vertix_1, vertix_2, 82)
+  graph.add_edge(vertix_1, vertix_3, 150)
+  graph.add_edge(vertix_2, vertix_4, 105)
+  graph.add_edge(vertix_2, vertix_4, 105)
+  graph.add_edge(vertix_3, vertix_4, 42)
+  graph.add_edge(vertix_3, vertix_5, 115)
+  graph.add_edge(vertix_4, vertix_5, 73)
+  graph.add_edge(vertix_2, vertix_3, 99)
+  graph.add_edge(vertix_3, vertix_6, 136)
+  cities = [vertix_1, vertix_3, vertix_5]
+  assert graph.business_trip(cities) == (True, '$265')
