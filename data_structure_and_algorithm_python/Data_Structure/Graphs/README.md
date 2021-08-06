@@ -48,3 +48,17 @@
 - Big O :
 - - Time : O(n)
 - - Space : O(1)
+
+-----------------------------------------------------------
+# depth first search
+
+### Challenge
+- Implement depth first search on graph.
+
+### Whiteboard:
+![](graph_depth_first.PNG)
+
+### Approach & Efficiency
+- Big O:
+- - Time: O(n)
+- - Space: O(n)

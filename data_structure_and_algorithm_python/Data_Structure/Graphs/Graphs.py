@@ -97,7 +97,6 @@ class Graph:
 
 
 
-
 if __name__=='__main__':
     graph = Graph()
     Vertix_1 = graph.add_node('A')
@@ -114,11 +113,6 @@ if __name__=='__main__':
     graph.add_edge(Vertix_4, Vertix_5, 5)
 
     assert graph.size() == 5
-
-    print(graph.get_nodes())
-    print(graph.get_neighbors(Vertix_1))
-    print(graph.get_neighbors(Vertix_2))
-    print(graph.get_neighbors(Vertix_3))
-    print(graph.get_neighbors(Vertix_4))
-    print(graph.get_neighbors(Vertix_5))
     graph.print()
+
+
