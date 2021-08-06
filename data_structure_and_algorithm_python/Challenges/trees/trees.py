@@ -99,7 +99,6 @@ class BinaryTree:
 
 
 def breadth_first(input):
-    # by levels from left to right
         output=[]
         if not input.root:
             return []

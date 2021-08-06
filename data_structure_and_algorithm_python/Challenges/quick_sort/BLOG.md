@@ -26,6 +26,6 @@
 - - second one contains th numbers that bigger than 16.
 
 
-- the list will sorted like this at end [4,8,15,16,23,42]
+- the list will sort like this at end [4,8,15,16,23,42]
 
 ![](quick_sort_blog.PNG)

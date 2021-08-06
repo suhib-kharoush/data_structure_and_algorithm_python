@@ -5,7 +5,7 @@
 - Write an instance method called find-maximum-value. Without utilizing any of the built-in methods available.
 
 ### Whiteboard:
-![](find-max-val-in-tree.JPG)
+![](the_max_number_in_tree.JPG)
 
 ### Approach & Efficiency:
 - Big O :
